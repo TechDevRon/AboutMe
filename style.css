@@ -7,30 +7,29 @@ html{
 
 body{
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia0.giphy.com%2Fmedia%2FUTS6HOANJvMDVX77i1%2Fsource.gif&f=1&nofb=1&ipt=59b506c73a3e3b6a6c86e4eb25e33d265f9af3f49cc416d8f5e37c38673fb9dc&ipo=images);
-  background-size: cover;  
+  background-size: cover;
 }
 
 .container{
-  background-color: black;
+  font-family: "Inter", sans-serif;
   margin: 0 auto;
+  background-color: black;
   width: 500px;
   height: 500px;
-  border:white solid 2px;
+  text-align: center;
+  position: relative;
+  border: white solid 2px;
   border-radius: 10px;
   color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
   overflow: auto;
+  padding: 10px;
   font-weight: bold;
-  font-family: "Inter", sans-serif;
+  margin-top: 8vh;
 }
 
 .topbar{
   padding-top: 0;
-  position: sticky;
+  position: relative;
   background-color: black;
   height: 10px;
   width: 100%;
@@ -51,4 +50,3 @@ body{
   position: relative;
   top: -14px;
 }
-
