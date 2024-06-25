@@ -10,40 +10,79 @@ body{
   background-size: cover;
 }
 
+
+@media screen and (max-width: 5000px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 200px;
+  }
+}
+
 .container{
+  padding: 8px;
   font-family: "Inter", sans-serif;
+  height: 80vh;
   margin: 0 auto;
   background-color: black;
-  width: 500px;
-  height: 500px;
   text-align: center;
-  position: relative;
-  border: white solid 2px;
+  border: #f0efef solid 2px;
   border-radius: 10px;
-  color: white;
+  color: #f0efef;
   overflow: auto;
-  padding: 10px;
-  font-weight: bold;
-  margin-top: 8vh;
+  font-weight: 500;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 .topbar{
-  padding-top: 0;
-  position: relative;
   background-color: black;
   height: 10px;
   width: 100%;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
   border-bottom:white solid 2px;
 }
 
 .images{
   position: relative;
-  left: 80%;
   top : -60px;
-  width: 100px;
-  background-color: black;
+  width: 120px;
+  background-color: transparent;
+}
+
+.images a{
+  margin-left: 5px;
 }
 
 .topbar h4{
